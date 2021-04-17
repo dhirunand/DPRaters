@@ -8,6 +8,16 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="dp.rater.dpraterhai.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/home_item" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="dp.rater.dpraterhai.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="dp.rater.dpraterhai.AddFragment"
+        android:label="New Post"
+        tools:layout="@layout/add_fragment" />
 </navigation>
